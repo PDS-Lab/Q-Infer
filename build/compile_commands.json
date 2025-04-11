@@ -1,0 +1,308 @@
+[
+{
+  "directory": "/home/wq/Q-infer/build",
+  "command": "/usr/bin/cc -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu11 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wdouble-promotion -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -march=native -pthread -o CMakeFiles/ggml.dir/ggml.c.o -c /home/wq/Q-infer/ggml.c",
+  "file": "/home/wq/Q-infer/ggml.c",
+  "output": "CMakeFiles/ggml.dir/ggml.c.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build",
+  "command": "/usr/bin/cc -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu11 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wdouble-promotion -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -march=native -pthread -o CMakeFiles/ggml.dir/ggml-alloc.c.o -c /home/wq/Q-infer/ggml-alloc.c",
+  "file": "/home/wq/Q-infer/ggml-alloc.c",
+  "output": "CMakeFiles/ggml.dir/ggml-alloc.c.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build",
+  "command": "/usr/bin/cc -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu11 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wdouble-promotion -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -march=native -pthread -o CMakeFiles/ggml.dir/ggml-backend.c.o -c /home/wq/Q-infer/ggml-backend.c",
+  "file": "/home/wq/Q-infer/ggml-backend.c",
+  "output": "CMakeFiles/ggml.dir/ggml-backend.c.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build",
+  "command": "/usr/bin/cc -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu11 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wdouble-promotion -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -march=native -pthread -o CMakeFiles/ggml.dir/ggml-quants.c.o -c /home/wq/Q-infer/ggml-quants.c",
+  "file": "/home/wq/Q-infer/ggml-quants.c",
+  "output": "CMakeFiles/ggml.dir/ggml-quants.c.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 --options-file CMakeFiles/ggml.dir/includes_CUDA.rsp -O3 -DNDEBUG -std=c++11 --generate-code=arch=compute_52,code=[compute_52,sm_52] --generate-code=arch=compute_61,code=[compute_61,sm_61] --generate-code=arch=compute_70,code=[compute_70,sm_70] -forward-unknown-to-host-compiler -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -use_fast_math -Wno-pedantic -Xcompiler \"-Wno-array-bounds -Wno-format-truncation -Wextra-semi\" -march=native -Xcompiler -pthread -x cu -c /home/wq/Q-infer/ggml-cuda.cu -o CMakeFiles/ggml.dir/ggml-cuda.cu.o",
+  "file": "/home/wq/Q-infer/ggml-cuda.cu",
+  "output": "CMakeFiles/ggml.dir/ggml-cuda.cu.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/llama.dir/llama.cpp.o -c /home/wq/Q-infer/llama.cpp",
+  "file": "/home/wq/Q-infer/llama.cpp",
+  "output": "CMakeFiles/llama.dir/llama.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/llama.dir/statistic.cpp.o -c /home/wq/Q-infer/statistic.cpp",
+  "file": "/home/wq/Q-infer/statistic.cpp",
+  "output": "CMakeFiles/llama.dir/statistic.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/common",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600  -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -o CMakeFiles/build_info.dir/build-info.cpp.o -c /home/wq/Q-infer/common/build-info.cpp",
+  "file": "/home/wq/Q-infer/common/build-info.cpp",
+  "output": "common/CMakeFiles/build_info.dir/build-info.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/common",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/common.dir/common.cpp.o -c /home/wq/Q-infer/common/common.cpp",
+  "file": "/home/wq/Q-infer/common/common.cpp",
+  "output": "common/CMakeFiles/common.dir/common.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/common",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/common.dir/sampling.cpp.o -c /home/wq/Q-infer/common/sampling.cpp",
+  "file": "/home/wq/Q-infer/common/sampling.cpp",
+  "output": "common/CMakeFiles/common.dir/sampling.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/common",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/common.dir/console.cpp.o -c /home/wq/Q-infer/common/console.cpp",
+  "file": "/home/wq/Q-infer/common/console.cpp",
+  "output": "common/CMakeFiles/common.dir/console.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/common",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/common.dir/grammar-parser.cpp.o -c /home/wq/Q-infer/common/grammar-parser.cpp",
+  "file": "/home/wq/Q-infer/common/grammar-parser.cpp",
+  "output": "common/CMakeFiles/common.dir/grammar-parser.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/common",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/common.dir/train.cpp.o -c /home/wq/Q-infer/common/train.cpp",
+  "file": "/home/wq/Q-infer/common/train.cpp",
+  "output": "common/CMakeFiles/common.dir/train.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -I/home/wq/Q-infer/common/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -c /home/wq/Q-infer/tests/test-quantize-fns.cpp",
+  "file": "/home/wq/Q-infer/tests/test-quantize-fns.cpp",
+  "output": "tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -I/home/wq/Q-infer/common/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o -c /home/wq/Q-infer/tests/test-quantize-perf.cpp",
+  "file": "/home/wq/Q-infer/tests/test-quantize-perf.cpp",
+  "output": "tests/CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -I/home/wq/Q-infer/common/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/test-sampling.dir/test-sampling.cpp.o -c /home/wq/Q-infer/tests/test-sampling.cpp",
+  "file": "/home/wq/Q-infer/tests/test-sampling.cpp",
+  "output": "tests/CMakeFiles/test-sampling.dir/test-sampling.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -I/home/wq/Q-infer/common/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/test-tokenizer-0-llama.dir/test-tokenizer-0-llama.cpp.o -c /home/wq/Q-infer/tests/test-tokenizer-0-llama.cpp",
+  "file": "/home/wq/Q-infer/tests/test-tokenizer-0-llama.cpp",
+  "output": "tests/CMakeFiles/test-tokenizer-0-llama.dir/test-tokenizer-0-llama.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -I/home/wq/Q-infer/common/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/test-tokenizer-0-falcon.dir/test-tokenizer-0-falcon.cpp.o -c /home/wq/Q-infer/tests/test-tokenizer-0-falcon.cpp",
+  "file": "/home/wq/Q-infer/tests/test-tokenizer-0-falcon.cpp",
+  "output": "tests/CMakeFiles/test-tokenizer-0-falcon.dir/test-tokenizer-0-falcon.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -I/home/wq/Q-infer/common/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/test-tokenizer-1-llama.dir/test-tokenizer-1-llama.cpp.o -c /home/wq/Q-infer/tests/test-tokenizer-1-llama.cpp",
+  "file": "/home/wq/Q-infer/tests/test-tokenizer-1-llama.cpp",
+  "output": "tests/CMakeFiles/test-tokenizer-1-llama.dir/test-tokenizer-1-llama.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -I/home/wq/Q-infer/common/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o -c /home/wq/Q-infer/tests/test-tokenizer-1-bpe.cpp",
+  "file": "/home/wq/Q-infer/tests/test-tokenizer-1-bpe.cpp",
+  "output": "tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -I/home/wq/Q-infer/common/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o -c /home/wq/Q-infer/tests/test-grammar-parser.cpp",
+  "file": "/home/wq/Q-infer/tests/test-grammar-parser.cpp",
+  "output": "tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -I/home/wq/Q-infer/common/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/test-llama-grammar.dir/test-llama-grammar.cpp.o -c /home/wq/Q-infer/tests/test-llama-grammar.cpp",
+  "file": "/home/wq/Q-infer/tests/test-llama-grammar.cpp",
+  "output": "tests/CMakeFiles/test-llama-grammar.dir/test-llama-grammar.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -I/home/wq/Q-infer/common/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/test-grad0.dir/test-grad0.cpp.o -c /home/wq/Q-infer/tests/test-grad0.cpp",
+  "file": "/home/wq/Q-infer/tests/test-grad0.cpp",
+  "output": "tests/CMakeFiles/test-grad0.dir/test-grad0.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -I/home/wq/Q-infer/common/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/test-rope.dir/test-rope.cpp.o -c /home/wq/Q-infer/tests/test-rope.cpp",
+  "file": "/home/wq/Q-infer/tests/test-rope.cpp",
+  "output": "tests/CMakeFiles/test-rope.dir/test-rope.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/tests",
+  "command": "/usr/bin/cc -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu11 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wdouble-promotion -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -march=native -pthread -o CMakeFiles/test-c.dir/test-c.c.o -c /home/wq/Q-infer/tests/test-c.c",
+  "file": "/home/wq/Q-infer/tests/test-c.c",
+  "output": "tests/CMakeFiles/test-c.dir/test-c.c.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/baby-llama",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/baby-llama.dir/baby-llama.cpp.o -c /home/wq/Q-infer/examples/baby-llama/baby-llama.cpp",
+  "file": "/home/wq/Q-infer/examples/baby-llama/baby-llama.cpp",
+  "output": "examples/baby-llama/CMakeFiles/baby-llama.dir/baby-llama.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/batched",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/batched.dir/batched.cpp.o -c /home/wq/Q-infer/examples/batched/batched.cpp",
+  "file": "/home/wq/Q-infer/examples/batched/batched.cpp",
+  "output": "examples/batched/CMakeFiles/batched.dir/batched.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/batched-bench",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/batched-bench.dir/batched-bench.cpp.o -c /home/wq/Q-infer/examples/batched-bench/batched-bench.cpp",
+  "file": "/home/wq/Q-infer/examples/batched-bench/batched-bench.cpp",
+  "output": "examples/batched-bench/CMakeFiles/batched-bench.dir/batched-bench.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/beam-search",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/beam-search.dir/beam-search.cpp.o -c /home/wq/Q-infer/examples/beam-search/beam-search.cpp",
+  "file": "/home/wq/Q-infer/examples/beam-search/beam-search.cpp",
+  "output": "examples/beam-search/CMakeFiles/beam-search.dir/beam-search.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/benchmark",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/examples/benchmark/../../common -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/benchmark.dir/benchmark-matmult.cpp.o -c /home/wq/Q-infer/examples/benchmark/benchmark-matmult.cpp",
+  "file": "/home/wq/Q-infer/examples/benchmark/benchmark-matmult.cpp",
+  "output": "examples/benchmark/CMakeFiles/benchmark.dir/benchmark-matmult.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/convert-llama2c-to-ggml",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o -c /home/wq/Q-infer/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp",
+  "file": "/home/wq/Q-infer/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp",
+  "output": "examples/convert-llama2c-to-ggml/CMakeFiles/convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/embedding",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/embedding.dir/embedding.cpp.o -c /home/wq/Q-infer/examples/embedding/embedding.cpp",
+  "file": "/home/wq/Q-infer/examples/embedding/embedding.cpp",
+  "output": "examples/embedding/CMakeFiles/embedding.dir/embedding.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/finetune",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/finetune.dir/finetune.cpp.o -c /home/wq/Q-infer/examples/finetune/finetune.cpp",
+  "file": "/home/wq/Q-infer/examples/finetune/finetune.cpp",
+  "output": "examples/finetune/CMakeFiles/finetune.dir/finetune.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/infill",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/infill.dir/infill.cpp.o -c /home/wq/Q-infer/examples/infill/infill.cpp",
+  "file": "/home/wq/Q-infer/examples/infill/infill.cpp",
+  "output": "examples/infill/CMakeFiles/infill.dir/infill.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/llama-bench",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/llama-bench.dir/llama-bench.cpp.o -c /home/wq/Q-infer/examples/llama-bench/llama-bench.cpp",
+  "file": "/home/wq/Q-infer/examples/llama-bench/llama-bench.cpp",
+  "output": "examples/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/llava",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/examples/llava/. -I/home/wq/Q-infer/examples/llava/../.. -I/home/wq/Q-infer/examples/llava/../../common -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -Wno-cast-qual -pthread -o CMakeFiles/llava.dir/llava.cpp.o -c /home/wq/Q-infer/examples/llava/llava.cpp",
+  "file": "/home/wq/Q-infer/examples/llava/llava.cpp",
+  "output": "examples/llava/CMakeFiles/llava.dir/llava.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/llava",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/examples/llava/. -I/home/wq/Q-infer/examples/llava/../.. -I/home/wq/Q-infer/examples/llava/../../common -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -Wno-cast-qual -pthread -o CMakeFiles/llava.dir/clip.cpp.o -c /home/wq/Q-infer/examples/llava/clip.cpp",
+  "file": "/home/wq/Q-infer/examples/llava/clip.cpp",
+  "output": "examples/llava/CMakeFiles/llava.dir/clip.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/llava",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -I/home/wq/Q-infer/examples/llava/. -I/home/wq/Q-infer/examples/llava/../.. -I/home/wq/Q-infer/examples/llava/../../common -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/llava-cli.dir/llava-cli.cpp.o -c /home/wq/Q-infer/examples/llava/llava-cli.cpp",
+  "file": "/home/wq/Q-infer/examples/llava/llava-cli.cpp",
+  "output": "examples/llava/CMakeFiles/llava-cli.dir/llava-cli.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/main",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/main.dir/main.cpp.o -c /home/wq/Q-infer/examples/main/main.cpp",
+  "file": "/home/wq/Q-infer/examples/main/main.cpp",
+  "output": "examples/main/CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/parallel",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/parallel.dir/parallel.cpp.o -c /home/wq/Q-infer/examples/parallel/parallel.cpp",
+  "file": "/home/wq/Q-infer/examples/parallel/parallel.cpp",
+  "output": "examples/parallel/CMakeFiles/parallel.dir/parallel.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/perplexity",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/perplexity.dir/perplexity.cpp.o -c /home/wq/Q-infer/examples/perplexity/perplexity.cpp",
+  "file": "/home/wq/Q-infer/examples/perplexity/perplexity.cpp",
+  "output": "examples/perplexity/CMakeFiles/perplexity.dir/perplexity.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/quantize",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/examples/quantize/../../common -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/quantize.dir/quantize.cpp.o -c /home/wq/Q-infer/examples/quantize/quantize.cpp",
+  "file": "/home/wq/Q-infer/examples/quantize/quantize.cpp",
+  "output": "examples/quantize/CMakeFiles/quantize.dir/quantize.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/quantize-stats",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/examples/quantize-stats/../../common -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/quantize-stats.dir/quantize-stats.cpp.o -c /home/wq/Q-infer/examples/quantize-stats/quantize-stats.cpp",
+  "file": "/home/wq/Q-infer/examples/quantize-stats/quantize-stats.cpp",
+  "output": "examples/quantize-stats/CMakeFiles/quantize-stats.dir/quantize-stats.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/save-load-state",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/save-load-state.dir/save-load-state.cpp.o -c /home/wq/Q-infer/examples/save-load-state/save-load-state.cpp",
+  "file": "/home/wq/Q-infer/examples/save-load-state/save-load-state.cpp",
+  "output": "examples/save-load-state/CMakeFiles/save-load-state.dir/save-load-state.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/simple",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/simple.dir/simple.cpp.o -c /home/wq/Q-infer/examples/simple/simple.cpp",
+  "file": "/home/wq/Q-infer/examples/simple/simple.cpp",
+  "output": "examples/simple/CMakeFiles/simple.dir/simple.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/speculative",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/speculative.dir/speculative.cpp.o -c /home/wq/Q-infer/examples/speculative/speculative.cpp",
+  "file": "/home/wq/Q-infer/examples/speculative/speculative.cpp",
+  "output": "examples/speculative/CMakeFiles/speculative.dir/speculative.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/train-text-from-scratch",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/train-text-from-scratch.dir/train-text-from-scratch.cpp.o -c /home/wq/Q-infer/examples/train-text-from-scratch/train-text-from-scratch.cpp",
+  "file": "/home/wq/Q-infer/examples/train-text-from-scratch/train-text-from-scratch.cpp",
+  "output": "examples/train-text-from-scratch/CMakeFiles/train-text-from-scratch.dir/train-text-from-scratch.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/server",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -DSERVER_VERBOSE=1 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/examples/server -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -I/home/wq/Q-infer/examples/llava/. -I/home/wq/Q-infer/examples/llava/../.. -I/home/wq/Q-infer/examples/llava/../../common -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/server.dir/server.cpp.o -c /home/wq/Q-infer/examples/server/server.cpp",
+  "file": "/home/wq/Q-infer/examples/server/server.cpp",
+  "output": "examples/server/CMakeFiles/server.dir/server.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/examples/export-lora",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/examples -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/export-lora.dir/export-lora.cpp.o -c /home/wq/Q-infer/examples/export-lora/export-lora.cpp",
+  "file": "/home/wq/Q-infer/examples/export-lora/export-lora.cpp",
+  "output": "examples/export-lora/CMakeFiles/export-lora.dir/export-lora.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/pocs/vdot",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/pocs -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/vdot.dir/vdot.cpp.o -c /home/wq/Q-infer/pocs/vdot/vdot.cpp",
+  "file": "/home/wq/Q-infer/pocs/vdot/vdot.cpp",
+  "output": "pocs/vdot/CMakeFiles/vdot.dir/vdot.cpp.o"
+},
+{
+  "directory": "/home/wq/Q-infer/build/pocs/vdot",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_MMV_Y=1 -DGGML_CUDA_PEER_MAX_BATCH_SIZE=128 -DGGML_PERF -DGGML_USE_CUBLAS -DK_QUANTS_PER_ITERATION=2 -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -I/home/wq/Q-infer/pocs -I/home/wq/Q-infer/common/. -I/home/wq/Q-infer/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wno-format-truncation -Wextra-semi -march=native -pthread -o CMakeFiles/q8dot.dir/q8dot.cpp.o -c /home/wq/Q-infer/pocs/vdot/q8dot.cpp",
+  "file": "/home/wq/Q-infer/pocs/vdot/q8dot.cpp",
+  "output": "pocs/vdot/CMakeFiles/q8dot.dir/q8dot.cpp.o"
+}
+]
