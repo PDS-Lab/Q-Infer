@@ -1,4 +1,4 @@
-# Q-Infer
+# Q-Infer: Towards Efficient GPU-CPU Collaborative LLM Inference via Sparsity-Aware Dynamic Scheduling
 
 ## Getting Started
 
